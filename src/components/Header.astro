@@ -70,24 +70,40 @@ const isActive = (path: string) => {
         <IconX id="close-icon" class="hidden" />
         <IconMenuDeep id="menu-icon" />
       </button>
-      <ul
+<ul
         id="menu-items"
         class="[&>li>a]:hover:text-accent mt-4 hidden w-44 grid-cols-2 place-content-center gap-2 sm:mt-0 sm:flex sm:w-auto sm:gap-x-5 sm:gap-y-0 sm:[&>li]:h-8 [&>li>a]:block [&>li>a]:px-4 [&>li>a]:py-3 [&>li>a]:text-center [&>li>a]:font-medium sm:[&>li>a]:px-2 sm:[&>li>a]:py-1"
       >
         <li class="col-span-2">
           <a
-            href={getRelativeLocaleUrl(locale, "posts")}
-            class:list={{ "active-nav": isActive("/posts") }}
+            href={getRelativeLocaleUrl(locale, "tags/biz")}
+            class:list={{ "active-nav": isActive("/tags/biz") }}
           >
-            {t.nav.posts}
+            Biz
           </a>
         </li>
         <li class="col-span-2">
           <a
-            href={getRelativeLocaleUrl(locale, "tags")}
-            class:list={{ "active-nav": isActive("/tags") }}
+            href={getRelativeLocaleUrl(locale, "tags/ai")}
+            class:list={{ "active-nav": isActive("/tags/ai") }}
           >
-            {t.nav.tags}
+            AI
+          </a>
+        </li>
+        <li class="col-span-2">
+          <a
+            href={getRelativeLocaleUrl(locale, "tags/essay")}
+            class:list={{ "active-nav": isActive("/tags/essay") }}
+          >
+            Essay
+          </a>
+        </li>
+        <li class="col-span-2">
+          <a
+            href={getRelativeLocaleUrl(locale, "tags/wellness")}
+            class:list={{ "active-nav": isActive("/tags/wellness") }}
+          >
+            Wellness
           </a>
         </li>
         <li class="col-span-2">
@@ -95,9 +111,11 @@ const isActive = (path: string) => {
             href={getRelativeLocaleUrl(locale, "about")}
             class:list={{ "active-nav": isActive("/about") }}
           >
-            {t.nav.about}
+            About
           </a>
         </li>
+        
+        <!-- 아래 부분은 기존 코드와 동일합니다 (아카이브, 검색, 다크모드 버튼 유지) -->
         {
           features.showArchives && (
             <li class="col-span-2">
