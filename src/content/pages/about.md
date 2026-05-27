@@ -26,5 +26,4 @@ description: "비즈니스 전략과 AI 자동화, 그리고 삶의 궤적을 �
 ---
 > 비즈니스 제안, 전략적 파트너십, 또는 AI 자동화와 관련된 생산적인 논의는 언제나 환영합니다. 아래 링크를 통해 편하게 연락해 주세요.
 
-✉️ [바로 이메일 보내기](mailto:wonsun.chung@gmail.com)  
-💼 [링크드인 프로필 보기]([https://www.linkedin.com/in/wonsun-chung/])
+✉️ [이메일 보내기](mailto:wonsun.chung@gmail.com)  
