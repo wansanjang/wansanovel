@@ -8,7 +8,7 @@ export default defineAstroPaperConfig({
     author: "완산장", 
     profile: "https://wansanovel.vercel.app/about", // 소개 페이지 주소
     ogImage: "default-og.jpg",
-    lang: "ko", // 웹 접근성과 SEO를 위해 한국어(ko)로 변경
+    lang: "en", // 웹 접근성과 SEO를 위해 한국어(ko)로 변경
     timezone: "Asia/Seoul", // 발행일 기준이 되는 시간대를 서울로 변경
     dir: "ltr",
   },
