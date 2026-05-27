@@ -24,7 +24,6 @@ export default defineAstroPaperConfig({
     showBackButton: true,
     editPost: {
       enabled: false, // 깃허브 오픈소스 기여용 버튼이므로 보통 false로 끕니다.
-      url: "https://github.com/satnaing/astro-paper/edit/main/",
     },
     search: "pagefind",
   },
