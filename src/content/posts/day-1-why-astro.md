@@ -1,5 +1,5 @@
 ---
-title: "(test) Day 1: 내가 워드프레스 대신 Astro 블로그를 선택한 이유"
+title: "(test) Day 1: 내가 워드프레스 대신 Astro 블로그를 선택한 이유 테스트"
 pubDatetime: 2026-05-27T16:00:00Z
 description: "AI 시대의 개인 브랜딩과 데이터 주권을 위한 초경량 웹사이트 인프라 구축기"
 ---
