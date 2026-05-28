@@ -114,7 +114,15 @@ const isActive = (path: string) => {
             About
           </a>
         </li>
-        
+        <li class="col-span-2">
+          <a
+            href={getRelativeLocaleUrl(locale, "tags")}
+            class:list={{ "active-nav": isActive("/tags") }}
+          >
+            Tags
+          </a>
+        </li>
+
         <!-- 아래 부분은 기존 코드와 동일합니다 (아카이브, 검색, 다크모드 버튼 유지) -->
         {
           features.showArchives && (
